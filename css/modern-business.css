@@ -1,0 +1,143 @@
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 80%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.mess{
+	margin-top:20px;
+	margin-bottom:-5px;
+	border-radius:5px;
+	background-color:white;
+	border:1px solid #2780e3;
+	color:#2780e3;
+}
+.mess p{
+	color:#2780e3
+}
+.mess i{
+font-weight:bold;
+color:#2780e3
+}
+.ui-datepicker-month, .ui-datepicker-year {
+    color:black !important;
+}
+
+.ui-widget-header {
+    border: 1px solid #2780e3 !important;
+    background: #2780e3  !important;
+    color: #ffffff  !important;
+    font-weight: bold;
+}
+
+p,li{
+	font-size:17px;
+}
+
+		.centered-form {
+    margin-top: 50px;
+    margin-bottom: 41px;
+}
+
+.centered-form .panel {
+    background:#f8f8f8;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	border:none;
+}
+
+
+.mess p{
+	color:#2780e3
+}
+.mess i{
+font-weight:bold;
+color:#2780e3
+}
+
+.mess{
+	margin-top:20px;
+	margin-bottom:-5px;
+	border-radius:5px;
+	background-color:white;
+	border:1px solid #2780e3;
+	color:#2780e3;
+}
+.navbar-default,.panel-heading,.btn-primary {
+	background-color:#ff0006 !important;
+	border-color:#ff0006 !important;
+}
+.text-primary{
+color:#ff0006 !important;	
+}
+
+.nav-stacked a{
+	color:#ff0006 !important;	
+}
+
+.ui-widget-header {
+    border: 1px solid #ff0006 !important;
+    background: #ff0006 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.list-social-icons a i{
+	color:#ff0006 !important;	
+	
+}
